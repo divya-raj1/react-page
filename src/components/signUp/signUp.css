@@ -1,0 +1,27 @@
+.register-form {
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    border-radius: 10px;
+    width: 40%;
+    padding: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title a {
+    align-self: center;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+/* for smaller screens */
+
+@media screen and (max-width: 540px) {
+    .register-form {
+        width: 80%;
+    }
+}

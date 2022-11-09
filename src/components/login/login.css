@@ -1,0 +1,35 @@
+.login-form {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    width: 40%;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.button {
+    width: 30%;
+}
+
+#register {
+    display: flex;
+    gap: 0.4rem;
+    font-size: 1rem;
+}
+
+#register a {
+    text-decoration: underline;
+}
+
+/* for smaller screens */
+
+@media screen and (max-width: 540px) {
+    .login-form {
+        width: 80%;
+    }
+}
