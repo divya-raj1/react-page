@@ -29,7 +29,7 @@ export default function Login() {
         <Form validated={validated} noValidate onSubmit={handleSubmit} className="register-form">
             <div className="title">
                 <h1 className="mb-4">Sign Up</h1>
-                <Nav.Link href="/login">Login</Nav.Link>
+                <Nav.Link href="/react-page/login">Login</Nav.Link>
             </div>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>

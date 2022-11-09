@@ -52,7 +52,7 @@ export default function Login() {
             </Form.Group>
             <hr/>
             <Form.Text id="register">
-                Need an account?<Nav.Link href="/signup">Sign Up</Nav.Link>
+                Need an account?<Nav.Link href="/react-page/signup">Sign Up</Nav.Link>
             </Form.Text>
         </Form>
     )
