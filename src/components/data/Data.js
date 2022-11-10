@@ -1,4 +1,4 @@
-export const data = [];
+export let data = [];
 
 //to add the user logged in
 export const addUser = (email) => {
@@ -7,6 +7,7 @@ export const addUser = (email) => {
             reject(new Error('Please provide email'));
         }
         else {
+            data = [];
             data.push(email);
             setTimeout(resolve(true), 250);
         }
