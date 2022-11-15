@@ -201,7 +201,7 @@ export default function Dashboard() {
                                     return (
                                         <tr key={data.id}>
                                             <td className="lists">
-                                                <span style={{textDecoration : toDoSet.completed ? "line-through" : null}}>{data.task}</span>
+                                                <span>{data.task}</span>
                                                 <Button onClick={(e)=>toDoRemove(data.id)}>X</Button>
                                             </td>
                                         </tr>
